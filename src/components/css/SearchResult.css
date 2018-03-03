@@ -1,0 +1,39 @@
+.SearchResult-container {
+	margin-top: 90px;
+	font-family: 'Josefin Slab', serif;
+}
+
+.SearchResult-container .title{
+	font-weight: 600;
+	text-align: center;
+}
+
+.SearchResult-container .Recipes-container {
+	margin-top: 30px;
+}
+
+.SearchResult-form {
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+.SearchResult-form input {
+	width:386px;
+	height: 50px;
+	line-height: normal;
+	background-color: #f2f2f2;
+	border: 0px solid black;
+	border-radius: 4px;
+	font-size: 22px;
+	outline: none;
+	padding-top: 8px;
+	padding-left: 15px;
+	padding-bottom: 8px;
+	margin-right: 12px;
+}
+
+.SearchResult-form button {
+	width: 143px;
+	font-size: 22px;
+}

@@ -1,0 +1,122 @@
+.RecipeInfo-container {
+	margin-top: 80px;
+	max-width: 860px;
+	width: 100%;
+	font-family: 'Josefin slab', serif;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 20px;
+}
+
+.RecipeInfo-container .line {
+	height: 1px;
+	background-color: #FF7C00;
+}
+
+.RecipeInfo-container .dotted {
+	color: #8e8e8e;
+	border:none;
+  	border-top: 2px dotted;
+  	height: 1px;
+  	margin-bottom: 20px;
+  	margin-top: 20px;
+}
+
+.RecipeInfo-img {
+	width: inherit;
+	height: 483px;
+	object-fit: cover;
+	margin-bottom: 20px;
+}
+
+.RecipeInfo-container h2, h3 {
+	font-weight: 600;
+}
+
+.RecipeInfo-difficulty {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.RecipeInfo-difficulty h3 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.RecipeInfo-difficulty p {
+	font-size: 25px;
+	margin-top: 3px;
+	margin-left: 50px;
+	margin-bottom: 0px;
+
+}
+
+.RecipeInfo-steps .stepImg {
+	width: inherit;
+	margin-bottom: 20px;
+}
+
+.RecipeInfo-steps .stepText{
+	width: inherit;
+	margin-bottom: 30px;
+}
+
+.comments {
+	border: 1px solid #d8d8d8;
+	margin-top: 10px;
+	margin-bottom: 70px;
+	width: 467px;
+	height: 140px;
+	border-radius: 12px;
+	padding: 15px;
+}
+.comments textarea {
+	background-color: transparent;
+	border: 0px solid black;
+	width: 430px;
+	outline: none;
+}
+
+.comments .btn {
+	font-size: 18px;
+	outline: none;
+	width: 120px;
+	float: right;
+}
+
+.comments-output {
+	margin-bottom: 100px;
+}
+
+.comment-all {
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.comment-all .image {
+	width: 80px;
+	height: 80px;
+	border: 0px solid #d8d8d8;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: orange;
+	color: white;
+	font-size: 26px;
+	font-weight: 600;
+}
+
+.comment-single {
+	word-wrap: break-word;
+	padding: 20px;
+	margin-left: 20px;
+	text-align: left;
+	border: 1px solid #d8d8d8;
+	border-radius: 5px;
+	width: 370px;
+}
+	

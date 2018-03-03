@@ -1,0 +1,271 @@
+@font-face {
+	font-family: 'Gotham';
+	src: url(./fonts/gothamcondensed-medium.woff);
+}
+
+.Search-invisible {
+	position: absolute;
+	width: 100%;
+	height: 550px;
+	background-color: rgba(255,255,255,0.9);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Search-invisible form {
+	margin-top: -170px;
+	width: 800px;
+	height: 200px;
+}
+
+.Search-invisible button {
+	float: right;
+}
+
+.Search-invisible .up {
+	width: 830px;
+	height: 260px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.Search-invisible hr {
+	background-color: #ccc;
+	height: 1px;
+	margin-top: -80px;
+}
+
+::placeholder {
+	color: #ccc;
+}
+
+.Search-invisible input {
+	background-color: transparent;
+	width: 800px;
+	height: 80px;
+	font-family: 'Gotham';
+	font-size: 70px;
+	margin-left: 25px;
+	letter-spacing: 3px;
+}
+
+.Search-invisible .inner-addon .glyphicon {
+	padding: 22px 10px; 
+	font-size: 40px;
+	color: gray;
+}
+
+.Search-back {
+	background-image: url('./images/Home_search_back.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 550px;
+	margin-top: 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Josefin Slab', serif;
+	margin-bottom: 70px;
+}
+
+.Search-input {
+	background-repeat: no-repeat;
+	width: 600px;
+	height: 60px;
+	border: none;
+	border-radius: 0px;
+	background-color: rgba(255,255,255,0.75);
+	cursor: pointer;
+	outline: none;
+	padding: 12px;
+	font-weight: 500px;
+	font-size: 20px;
+}
+
+.Search-back h2 {
+	margin-top: -40px;
+	margin-bottom: 20px;
+	font-family: 'Gotham';
+	color: white;
+	font-weight: 400;
+	font-size: 88px;
+	text-transform: uppercase;
+}
+
+.inner-addon { 
+    position: relative; 
+}
+
+.inner-addon .glyphicon {
+	color: gray;
+	position: absolute;
+	font-size: 28px;
+	pointer-events: none;
+	padding: 16px 10px;
+}
+
+.left-addon .glyphicon  { left:  0px;}
+.left-addon input  { padding-left:  45px; }
+
+.inner-addon input:hover + .glyphicon{
+	color: black;
+}
+
+.Special-container {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 720px;
+	width: 100%;
+	margin-bottom: 70px;
+	font-family: 'Josefin Slab', serif;
+}
+
+.Special-container h2 {
+	font-size: 28px;
+	font-weight: 600;
+}
+
+.Special-container p {
+	margin-top: 15px;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.Special-container hr {
+	background-color: #FF7C00;
+	height: 0.6px;
+}
+
+.Special-image {
+	width: 720px;
+	height: 420px;
+	object-fit: cover;
+}
+
+.Special-image:hover {
+	transform: scale(1.01, 1.01);
+	transition-duration: 0.25s;
+	box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+	cursor: pointer;
+}
+
+.LatestRecipe-container {
+	background-color: #f1f2f2;
+	width: 100%;
+	font-family: 'Josefin Slab';
+	padding-bottom: 30px;
+	margin-bottom: 70px;
+}
+
+.LatestRecipe-container header {
+	padding-top: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 25px;
+}
+
+.LatestRecipe-container hr {
+	background-color: #FF7C00;
+	height: 0.6px;
+	width: 330px;
+	margin-right: 15px;
+	margin-left: 15px;
+
+}
+
+.LatestRecipe-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.LatestRecipe-single {
+	text-align: center;
+	margin-left: 22px;
+	margin-right: 22px;
+	width: 150px;
+}
+
+.LatestRecipe-single img {
+	width: inherit;
+	margin-bottom: 20px;
+}
+
+.LatestRecipe-single img:hover{
+	transform: scale(1.01, 1.01);
+	transition-duration: 0.25s;
+	box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+	cursor: pointer;	
+}
+
+.LatestRecipe-single img:hover + p{
+	color: #7DBF27;
+	cursor: pointer;
+}
+
+.LatestRecipe-single p {
+	font-size: 18px;
+}
+
+.LatestRecipe-single p:hover {
+	color: #7DBF27;
+	cursor: pointer;
+}
+
+.Suggestion-container {
+	margin-bottom: 150px;
+	font-family: 'Josefin Slab', serif;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 720px;
+	width: 100%;
+}
+
+.Suggestion-container .Carousel {
+	width: inherit;
+	border-radius: 10px;
+    overflow: hidden;
+}
+
+.Suggestion-container .carousel-inner .item img{
+	width: 720px;
+	height: 420px;
+	object-fit: cover;
+}
+
+.Suggestion-container .carousel-indicators {
+	bottom: 0px;
+}
+.Suggestion-item .carousel-caption {
+	font-weight: 600;
+	bottom: -5px;
+}
+
+.Suggestion-item .carousel-caption p {
+	font-size: 23px;
+	text-shadow: 2px 2px 3px black;
+}
+
+.Suggestion-container hr {
+	background-color: #FF7C00;
+	height: 1px;
+}
+
+.Suggestion-container h2 {
+	font-size: 28px;
+	font-weight: 600;
+}
+
+.Suggestion-container p {
+	margin-top: 15px;
+	font-weight: 600;
+	font-size: 20px;
+}
